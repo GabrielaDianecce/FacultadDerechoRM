@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Fcultad de Derecho</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/css.css">
+    </head>
+    <body>  
+
+        <header class="header">
+            <div class="topo"><a href="index.html"><img class="imgtopo" src="imagenes/logo.png"></a></div>
+        </header>
+        <nav class="menu">
+
+            <a class="link-menu" href="index.html"> INICIO</a>
+            <a class="link-menu" href="examenes.html">EXÁMENES</a>
+            <a class="link-menu" href="cursos.html">SOBRE EL CURSO</a>
+            <a class="link-menu" href="institucion.html">INSTITUCIÓN</a>
+
+        </nav>
+
+        <section id="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>MATERIA</th>
+                        <th>FECHA</th>
+                        <th>HORA</th>
+                        <th>TRIBUNAL</th>
+                    </tr>
+                </thead>
+                <tbody>	
+                    <tr>
+                        <td>Pedagogía</td>
+                        <td>22/11/2019</td>
+                        <td>08:30</td>
+                        <td>Alberto Stenjer, María Sosa, Vicente Sanz</td>
+                    </tr>
+                    <tr>
+                        <td>Psicología</td>
+                        <td>26/11/2019</td>
+                        <td>08:30</td>
+                        <td>Cristian Menezes, Gerardo Mora, Vicente Sanz</td>
+                    </tr>
+                </tbody>
+                <tr>
+                    <td>Historia del derecho</td>
+                    <td>30/11/2019</td>
+                    <td>09:00</td>
+                    <td>Marcos de los Santos, Virginia Mesa, Alberto Stenjer </td>
+                </tr>
+                <tr>
+                    <td>Lengua/Español</td>
+                    <td>2/12/219</td>
+                    <td>10:00</td>
+                    <td>Pamela Camargo, Sebastian Piriz, Victor Méndez</td>
+                </tr>
+                </tbody>
+                <tr>
+                    <td>Didáctica</td>
+                    <td>5/12/2019</td>
+                    <td>8:30</td>
+                    <td>Marcos Santos, Alberto Stenjer, Rosa Castro</td>
+                </tr>
+                <tr>
+                    <td>Derecho Público 1</td>
+                    <td>8/12/2019</td>
+                    <td>9:30</td>
+                    <td>Virginia Mesa, Rosa Castro, Maria López</td>
+                </tr>
+                </tbody>
+                <tr>
+                    <td>Sociología del Derecho</td>
+                    <td>10/12/2019</td>
+                    <td>9:00</td>
+                    <td>Marcos de los Santos, Alberto Stenjer, María López</td>
+                </tr>
+                <tr>
+                    <td>Pen. Históricos, Políticos y Sociales</td>
+                    <td>13/12/2019</td>
+                    <td>08:30</td>
+                    <td>Gerardo Sosa, Rosa Casadeval, Betina Suárez</td>
+                </tr>
+                </tbody>
+                <tr>
+                    <td>Observación y Análisis</td>
+                    <td>16/12/2019</td>
+                    <td>9:00</td>
+                    <td>Alberto Stenjer, Carla Fajardo, Marcos de los Santos</td>
+                </tr>
+                <tr>
+                    <td>Principios generales del Derecho</td>
+                    <td>19/12/2019</td>
+                    <td>9:00</td>
+                    <td>Juan Pedro López, Sebastián Piriz, Carla Fajardo</td>
+                </tr>
+            </table>
+
+        </section>
+
+        <section id="contenido-profesores">
+            <div>
+                <h2 class="titulo-profesores" >Currículum reducido de profesores </h2>
+            </div>
+            <div class="curriculum" id="01">
+                <div  class="titulo_boton">
+                    <p class="nombre-prof">Alberto Stenjer</p>
+                    <a style='cursor: pointer;' onClick="muestra_oculta()" title="" class="boton_mostrar">+</a>
+                </div>
+
+                <div class="contenido" id="c_01">
+                    <p class='texto'>Master en Ciencias Sociales.</p>
+                    <p class='texto'>Doctorado en Pedagodia.</p>
+                    <p class='texto'>16 años como profesor en nuestra universidad.</p>
+                    <p class='texto'>Grado 4.</p>
+
+                </div>
+            </div>
+            <div class="curriculum" id="02">
+                <div  class="titulo_boton">
+                    <p class="nombre-prof">María Sosa</p>
+                    <a style='cursor: pointer;' onClick="muestra_oculta_2()" title="" class="boton_mostrar">+</a>
+                </div>
+
+
+                <div class="contenido" id="c_02">
+                    <p class='texto'>Porfesora de Pedagogía.</p>
+                    <p class='texto'>Doctorado en Pedagodia.</p>
+                    <p class='texto'>10 años como profesora en nuestra universidad.</p>
+                    <p class='texto'>Grado 3.</p>
+
+                </div>
+            </div>
+              <div class="curriculum" id="03">
+                <div  class="titulo_boton">
+                    <p class="nombre-prof">Vicente Sanz</p>
+                    <a style='cursor: pointer;' onClick="muestra_oculta_3()" title="" class="boton_mostrar">+</a>
+                </div>
+
+
+                <div class="contenido" id="c_03">
+                    <p class='texto'>Psicólogo.</p>
+                    <p class='texto'>Doctorado en Psicología.</p>
+                    <p class='texto'>7 años como profesor en nuestra universidad.</p>
+                    <p class='texto'>Grado 2.</p>
+
+                </div>
+            </div>
+             <div class="curriculum" id="04">
+                <div  class="titulo_boton">
+                    <p class="nombre-prof">Marcos Santos</p>
+                    <a style='cursor: pointer;' onClick="muestra_oculta_4()" title="" class="boton_mostrar">+</a>
+                </div>
+
+
+                <div class="contenido" id="c_04">
+                    <p class='texto'>Master en Derecho Público.</p>
+                    <p class='texto'>Doctorado en Ciencias Sociales.</p>
+                    <p class='texto'>16 años como profesor en nuestra universidad.</p>
+                    <p class='texto'>Grado 4.</p>
+
+                </div>
+            </div>
+            <div class="curriculum" id="05">
+                <div  class="titulo_boton">
+                    <p class="nombre-prof">Virginia Mesa</p>
+                    <a style='cursor: pointer;' onClick="muestra_oculta_5()" title="" class="boton_mostrar">+</a>
+                </div>
+
+
+                <div class="contenido" id="c_05">
+                    <p class='texto'>Máster en Derecho Público.</p>
+                    <p class='texto'>Doctorado en Ciencias Sociales.</p>
+                    <p class='texto'>16 años como profesor en nuestra universidad.</p>
+                    <p class='texto'>Grado 4.</p>
+
+                </div>
+            </div>
+            <div class="curriculum" id="06">
+                <div  class="titulo_boton">
+                    <p class="nombre-prof">Rosa Casadeval</p>
+                    <a style='cursor: pointer;' onClick="muestra_oculta_6()" title="" class="boton_mostrar">+</a>
+                </div>
+
+
+                <div class="contenido" id="c_06">
+                    <p class='texto'>Máster en Derecho Social.</p>
+                    <p class='texto'>Doctorado en Pensamientos del Derecho.</p>
+                    <p class='texto'>11 años como profesor en nuestra universidad.</p>
+                    <p class='texto'>Grado 3.</p>
+
+                </div>
+            </div>
+             <div class="curriculum" id="07">
+                <div  class="titulo_boton">
+                    <p class="nombre-prof">Sebastián Piriz</p>
+                    <a style='cursor: pointer;' onClick="muestra_oculta_7()" title="" class="boton_mostrar">+</a>
+                </div>
+
+
+                <div class="contenido" id="c_07">
+                    <p class='texto'>Profesor de Principios generales del Derecho.</p>
+                    <p class='texto'>Doctorado en Pensamientos del Derecho.</p>
+                    <p class='texto'>5 años como profesor en nuestra universidad.</p>
+                    <p class='texto'>Grado 1.</p>
+
+                </div>
+            </div>
+               <div class="curriculum" id="08">
+                <div  class="titulo_boton">
+                    <p class="nombre-prof">Betina Suárez</p>
+                    <a style='cursor: pointer;' onClick="muestra_oculta_8()" title="" class="boton_mostrar">+</a>
+                </div>
+
+
+                <div class="contenido" id="c_08">
+                    <p class='texto'>Profesora de Derecho Privado.</p>
+                    <p class='texto'>Doctorado en Pensamientos del Derecho.</p>
+                    <p class='texto'>14 años como profesora en nuestra universidad.</p>
+                    <p class='texto'>Grado 4.</p>
+
+                </div>
+            </div>
+            <div class="curriculum" id="09">
+                <div  class="titulo_boton">
+                    <p class="nombre-prof">Gerardo Sosa</p>
+                    <a style='cursor: pointer;' onClick="muestra_oculta_9()" title="" class="boton_mostrar">+</a>
+                </div>
+
+
+                <div class="contenido" id="c_09">
+                    <p class='texto'>Profesor de Pedagogía.</p>
+                    <p class='texto'>Doctorado en Psicología.</p>
+                    <p class='texto'>8 años como profesor en nuestra universidad.</p>
+                    <p class='texto'>Grado 2.</p>
+
+                </div>
+            </div>
+            <div class="curriculum" id="10">
+                <div  class="titulo_boton">
+                    <p class="nombre-prof">Rosa Castro</p>
+                    <a style='cursor: pointer;' onClick="muestra_oculta_10()" title="" class="boton_mostrar">+</a>
+                </div>
+
+
+                <div class="contenido" id="c_10">
+                    <p class='texto'>Profesora de Didáctica.</p>
+                    <p class='texto'>Máster en Derecho Público.</p>
+                    <p class='texto'>20 años como profesora en nuestra universidad.</p>
+                    <p class='texto'>Grado 5.</p>
+
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+
+        <footer id="pie">
+
+       <div class='i'>
+
+                <h3>CARRERAS</h3>
+                <p>TRADUCTORADO</p>
+                <p>ABOGACÍA</p>
+                <p>ESCRIBANÍA</p>
+                
+               
+            </div> 
+
+            <div class="i">
+                 <h3>INSTITUCIÓN</h3>
+                <p>MISIÓN</p>
+                <p>VISIÓN</p>
+                <p>VALORES</p>
+                
+            </div>
+            <div class='i'>
+                 <h3>CONTACTO</h3>
+                 <a href='https://www.facebook.com/universidaddemontevideo'> <img src='imagenes/fb.png' width="50px" height='50px;'></a>
+                 <a href='https://twitter.com/univmontevideo'><img src='imagenes/tw.png' width="50px" height='50px;'></a>
+                 <a href='http://www.youtube.com/user/portalUMvideos?feature=mhum'><img src='imagenes/y.png' width="50px" height='50px;'></a>
+
+                
+            </div>
+     
+        </footer>
+        <script type='text/javascript' src='js/funciones.js'></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,331 @@
+
+body{
+    background-color: #FAFAFC;
+    margin: 0px;
+}
+.topo {
+    background-color: #4F4FEF;
+    height: 120px;
+    width: 100%;
+
+}
+.imgtopo{
+    margin-left: 45%;
+}
+
+.menu{
+    height: 40px;
+    background-color: #AAB5F0;
+
+}
+
+.link-menu{
+    color: black;
+    size: 16px;
+    font-weight: bold;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-decoration: none;
+
+
+}
+
+.portada{
+
+    width: 100%;
+}
+
+.foto-portada{
+    height: 550px;
+    width: 100%
+}
+
+#contenido-textos{
+    width: 100%;
+    height: 900px;
+}
+.noticias{
+    float: left;
+    height: 650px;
+    width: 45%;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+h2{
+    text-align: center;
+    padding-left: 5px;
+    color: #4F4FEF;
+}
+
+h3{
+    text-align: justify;
+    padding-left: 5px;
+    text-decoration:  overline #4F4FEF;
+}
+
+.italico{
+    font-style: italic;
+}
+p{
+    padding-left: 5px;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.texto{
+
+    text-align: justify;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #4D4A4A;
+
+}
+
+.subrrayado{
+    text-decoration: underline;
+}
+
+.intercambio{
+    padding-left: 30%;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+.bedelia{
+    float: right;
+    height: 650px;
+    width: 45%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.centro{
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.link{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+#pie{
+    background-color: #AAB5F0;
+  width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.carrera{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    float: left;
+
+}
+
+.titulo_footer{
+    size: 24px;
+    font-weight: bold;
+    color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    float: right;
+
+}
+.f{
+    padding-left: 10px;
+}
+
+
+.linea{
+    width: 100%;
+    height: 4px;
+    margin-top: 30px;
+    background-color: #4F4FEF;
+}
+
+table{border-collapse:collapse;
+      margin-top: 20px;
+}
+th,tr,td{
+    border:1px solid #000;
+    width:450px;
+    height:50px;
+    vertical-align:middle;
+    text-align:center;
+
+}
+th{
+    color: white;
+    font-size: 20px;
+    background-color: #4F4FEF;
+}
+
+tr:nth-child(odd) td{
+    background-color:#eee;
+}
+
+#contenido-curso{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 800px;
+    height: 800px;
+
+    float: left;
+
+}
+
+#master{
+
+    float:right;
+    width: 400px;
+    height: 800px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+#contenido-insttitucion{
+    width: 100%;
+    height: 600px;
+}
+
+.portada-inst{
+    width: 100%;
+
+}
+
+#contenido-profesores{
+    width: 90%;
+    height: auto;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.span-t-p{
+    size: 26px;
+    color: #1835D6;
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+.titulo_boton {
+
+    padding:5px;  
+    background-color:#e6e6e6;
+    width:600px;
+    height: 30px;
+    font-family:helvetica;
+    font-size:16px;
+    font-weight:bold;
+    display: flex;
+    align-items: center;
+
+}
+.boton_mostrar {
+
+    font-size:22px;
+    color:#4F4FEF;
+    margin-left: 400px;
+}
+.contenido{
+    float:left;
+    clear:both;
+    border:2px solid #e6e6e6;
+    margin-top:2px;
+    padding:5px;
+    width:396px;
+    overflow:auto;
+    font-family:helvetica;
+    font-size:18px;
+    text-align: justify;
+}
+
+
+.i-v{
+    display: flex;
+    width: 400px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+
+
+} 
+.i{
+        display: flex;
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.nombre-prof{
+    margin:0px;
+    padding:0px;
+}
+
+.titulo-profesores{
+    left:0px;
+}
+
+.curriculum{
+    display:flex;
+    margin-left: 30%;
+}
+
+#v-m-v{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+#video{
+    padding-top: 20px;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.video-um{
+    width: 650px;
+    height: 550px;
+    display:flex;
+    margin-left: 30%;
+}
+
+#atajos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.atajo1{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+    background-color: #4F4FEF;
+} 
+
+h1{
+    margin-left: 20%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
